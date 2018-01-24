@@ -1,0 +1,44 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.ionic.IonicGoogleMaps"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_ANDROID": "AIzaSyCO9u8mb2xs33sCJUl8uk5xYZ6-oBp1f5U",
+      "PACKAGE_NAME": "io.ionic.IonicGoogleMaps"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "io.ionic.IonicGoogleMaps"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "io.ionic.IonicGoogleMaps"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "io.ionic.IonicGoogleMaps"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "io.ionic.IonicGoogleMaps"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.ionic.IonicGoogleMaps"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "io.ionic.IonicGoogleMaps"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "io.ionic.IonicGoogleMaps"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "io.ionic.IonicGoogleMaps"
+    }
+  }
+}
