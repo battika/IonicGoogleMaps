@@ -5,7 +5,7 @@ import * as jQuery from "jQuery"
 @Injectable()
 export class GMapsServices {
   public elStations: any[] = [];
-  private nobilApiKey = '501abed701f4b59dc45364900bd6a53a';
+  private nobilApiKey = '';
 
   constructor(public http: Http) {
   }
