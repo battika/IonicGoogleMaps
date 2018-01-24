@@ -1,0 +1,17 @@
+﻿ var service = new google.maps.places.PlacesService(document.getElementById('main').appendChild(document.createElement('div')));
+                            service.nearbySearch(request, function (results, status) {
+                                angular.forEach(results, function (place, key) {
+                                    promise = calculateDistances(place, place.geometry);
+                                    promise.then(function () {
+                                        $timeout(function () {
+                                         // place = data[i];
+                                          var latMrk = place.geometry.location.lat();
+                                          var longMrk = place.geometry.location.lng();
+                                          var latLngMarker = new plugin.google.maps.LatLng(latMrk, longMrk);
+                                          addMarkers(place, latLngMarker);
+                                        }, 500)
+                                    }, function (error) {
+                                        console.log(error);
+                                    })
+                                });
+                            });
